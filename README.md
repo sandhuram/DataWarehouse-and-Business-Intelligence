@@ -35,14 +35,22 @@ Observations in SOR
 
 Data Profiling
 ->Changed the SOR Load and Update dates from TIMESTAMP to DATE for Oracle and PostgreSQL to load SOR_LOADDATE
+
 ->Converted data type values for DATES to DATE data type across all the CSVs and Text input files
+
 ->For SCDs DimProductPrice and DimProductCost we had to use SOR dimproduct (MySQL) as a bridge between input file price_cny_step_1_of_4 and DIMPRODUCT
+
 ->Converted all the possible columns in the target metadata from Big Decimal to INT
+
 ->Data Type csv contains all the column’s data type which we kept constant across all the SORs and Target table depending upon the size of data
+
 ->Had to append zeros and trimmed values in the for joining product tables
-->Reject Codes and Error Handling
+
+Reject Codes and Error Handling
 ->Reject Codes are used to catch bad data,missing values or invalid data present in the facts rejects
+
 ->Reject Reasons help you understand the bad data in detail
+
 ->Handled null values using Relation.ISNULL function and applied code 99 if nulls are found
 
 The company has 4 sales channels:
