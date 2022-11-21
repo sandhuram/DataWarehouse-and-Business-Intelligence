@@ -33,7 +33,7 @@ Observations in SOR
 ->Length of the values were different across SORs
 ->Data type for dates in the CSV and TXT files are not constant.
 
-Data Profiling
+DATA PROFILING:
 
 ->Changed the SOR Load and Update dates from TIMESTAMP to DATE for Oracle and PostgreSQL to load SOR_LOADDATE
 
@@ -47,14 +47,39 @@ Data Profiling
 
 ->Had to append zeros and trimmed values in the for joining product tables
 
-Reject Codes and Error Handling
+REJECT CODES AND ERROR HANDLING:
+
 ->Reject Codes are used to catch bad data,missing values or invalid data present in the facts rejects
 
 ->Reject Reasons help you understand the bad data in detail
 
 ->Handled null values using Relation.ISNULL function and applied code 99 if nulls are found
 
-The company has 4 sales channels:
+![image](https://user-images.githubusercontent.com/25193377/203154899-a9612bdb-9ec4-452b-b589-748de249461c.png)
+
+CURRENCY CONVERSION:
+
+![image](https://user-images.githubusercontent.com/25193377/203154955-64abfa1b-9f6d-4170-85da-ef2d62ac95eb.png)The company has 4 sales channels:
+
+JOB SCREENSHOT:
+
+![image](https://user-images.githubusercontent.com/25193377/203155086-a5f64c77-2866-4adc-9714-288a5018e9bd.png)
+
+POWERBI Screenshot:
+
+Sales Analysis:
+
+![image](https://user-images.githubusercontent.com/25193377/203155173-770d5b57-b244-433b-8aaa-1eafc9394ba3.png)
+
+![image](https://user-images.githubusercontent.com/25193377/203155217-ff757122-dbff-47a6-8a78-7adf6369c8aa.png)
+
+![image](https://user-images.githubusercontent.com/25193377/203155238-204a1abe-ea93-49be-8702-b58a12365732.png)
+
+![image](https://user-images.githubusercontent.com/25193377/203155263-d621d3b7-03a0-4abf-a719-ab4743bfc85f.png)
+
+![image](https://user-images.githubusercontent.com/25193377/203155305-37b7a748-bc19-49a0-a1aa-23e435182304.png)
+
+![image](https://user-images.githubusercontent.com/25193377/203155345-d42b728b-4fd0-4828-8a13-309701a6e797.png)
 
 ->Retail
 ->Stores
