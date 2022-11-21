@@ -34,6 +34,7 @@ Observations in SOR
 ->Data type for dates in the CSV and TXT files are not constant.
 
 Data Profiling
+
 ->Changed the SOR Load and Update dates from TIMESTAMP to DATE for Oracle and PostgreSQL to load SOR_LOADDATE
 
 ->Converted data type values for DATES to DATE data type across all the CSVs and Text input files
